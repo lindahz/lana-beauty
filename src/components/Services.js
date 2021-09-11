@@ -5,47 +5,61 @@ import styled from 'styled-components'
 import lash from '../assets/lash.svg'
 import brow from '../assets/eyebrow.png'
 import body from '../assets/body.svg'
-import facial from '../assets/treatment.svg'
+import cream from '../assets/cream.png'
 import massage from '../assets/massage.svg'
 import beauty from '../assets/beauty.svg'
+import heart from '../assets/heart.png'
+import flower from '../assets/flower.png'
 
 export const Services = () => {
   const treatments = [
     {
       name: 'Ansiktsbehandling',
-      icon: facial,
+      icon: cream,
       image: '#',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.'
+      description: 'Vi erbjuder ansiktsbehandling och kemisk peeling för olika hudtyper. Beroende på din hudtyp anpassar vi behandlingen just för dig.'
     },
     {
       name: 'Microneedling',
       icon: beauty,
       image: '#',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.'
+      description: 'Microneedling är en avancerad behandling som på ett naturligt sätt ökar hudens kollagentillväxt och förbättrar hudens struktur och lyster.'
+    },
+    {
+      name: 'Laser',
+      icon: body,
+      image: '',
+      description: 'Vi erbjuder permanent hårreducering med diod laser. Inför första behandlingen kommer du på en konsultation där vi går igenom behandlingsförloppet.'
     },
     {
       name: 'Lashlift',
       icon: lash,
       image: '',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.'
+      description: 'Lashlift är en permanent böjning av ögonfransarna som håller ca 4-10 veckor beroende på hur fort dina fransar växer.'
     },
     {
       name: 'Massage',
       icon: massage,
       image: '',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.'
+      description: 'Vi erbjuder flera olika typer av massage som ansikts- och huvudmassage, massage för rygg och nacke, benmassage och helkroppsmassage.'
     },
     {
-      name: 'Hårborttagning',
-      icon: body,
+      name: 'LPG',
+      icon: heart,
       image: '',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.'
+      description: 'LPG, lipomassage, minskar celluliter och envisa fettdepåer från mage, lår och rumpa samt stramar upp slapp hud med en skön, djupgående massage.'
     },
     {
-      name: 'Trådning',
+      name: 'Vaxning',
+      icon: flower,
+      image: '',
+      description: 'Vaxning är en effektiv och skonsam hårborttagningsmetod som ger ett slätt och hårfritt resultat som håller i veckor. Vi har även brasiliansk vaxning.'
+    },
+    {
+      name: 'Bryn och frans',
       icon: brow,
       image: '',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.'
+      description: 'Vi erbjuder färgning av både bryn och fransar samt trådning och formning av dina bryn.'
     }
   ]
   return (

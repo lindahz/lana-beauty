@@ -15,6 +15,30 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  font-style: italic;
+  font-weight: 500;
  }
+
+ .swal-overlay {
+  background-color: rgba(249, 218, 198, 0.45);
+}
+
+.swal-modal {
+  border: 3px solid white;
+  font-family: 'Playfair Display', serif;
+}
+
+.swal-text {
+  text-align: center;
+}
+
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 0;
+  background-color: #6A4442;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 1px solid #6A4442;
+  color: #F9DAC6;
+}

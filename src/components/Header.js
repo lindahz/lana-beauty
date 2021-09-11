@@ -9,7 +9,7 @@ export const Header = () => {
     <Section>
       <Container>
         <Title>
-          Välkommen till Lana Beauty & Esthetics
+          Välkommen till Lana Beauty & Esthetic
         </Title>
         <Subtitle>
           - Ditt första val inom skönhet och hudvård

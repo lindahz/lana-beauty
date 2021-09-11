@@ -2,7 +2,7 @@ import React from 'react'
 
 import styled from 'styled-components'
 
-import avatar from '../assets/avatar.jpg'
+import avatar from '../assets/avatar.png'
 
 export const About = () => {
   return (
@@ -34,7 +34,7 @@ export const About = () => {
         <Image
           src={avatar} />
         <Text>
-          Namn Efternamn
+          Lana H
         </Text>
         <Role>
           Hudterapeut
@@ -44,10 +44,20 @@ export const About = () => {
         <Image
           src={avatar} />
         <Text>
-          Namn Efternamn
+          Erwin H
         </Text>
         <Role>
           Sjuksköterska
+        </Role>
+      </Container>
+      <Container>
+        <Image
+          src={avatar} />
+        <Text>
+          Melina Z A
+        </Text>
+        <Role>
+          Läkare
         </Role>
       </Container>
     </Section>
@@ -94,6 +104,6 @@ const Container = styled.div`
   margin: 30px;
 `
 const Image = styled.img`
-  width: 200px;
-  border-radius: 50%;
+  width: 100px;
+  margin: 10px;
 `

@@ -19,7 +19,10 @@ export const Footer = () => {
               Besöksadress
             </Heading>
             <Text>
-              Tomtebogatan 21A, 113 39 Stockholm
+              Tomtebogatan 21A
+            </Text>
+            <Text>
+              113 39 Stockholm
             </Text>
           </Wrapper>
           <Wrapper>
@@ -42,7 +45,8 @@ export const Footer = () => {
               lana-hs@hotmail.com
             </Text>
           </Wrapper>
-          <Wrapper>
+          <Wrapper
+            href="https://www.instagram.com/lanabeautyesthetic/">
             <Icon
               src={ig} />
             <Heading>
@@ -73,7 +77,7 @@ const Container = styled.div`
   padding: 40px 140px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -81,12 +85,17 @@ const Container = styled.div`
     padding: 40px;
   }
 `
-const Wrapper = styled.div`
+const Wrapper = styled.a`
   width: 100%;
+  margin: 20px;
   text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #F9DAC6;
 
   @media (max-width: 768px) {
     padding: 20px;
+    margin: 0;
   }
 `
 const Icon = styled.img`
@@ -101,7 +110,7 @@ const Heading = styled.h3`
 const Text = styled.p`
   font-size: 12px;
   margin: 0;
-  padding: 5px 5px 10px 10px;
+  padding: 3px;
 
   &:nth-child(2) {
       padding: 0 0 20px 20px;
