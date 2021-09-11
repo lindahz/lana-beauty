@@ -78,12 +78,14 @@ const Section = styled.section`
 
   @media (max-width: 768px) {
     padding: 30px;
+    flex-direction: column;
   }
 `
 const Heading = styled.h3`
   width: 100%;
   margin: 0;
   margin-top: 20px;
+  margin-bottom: 10px;
   font-size: 22px;
   text-align: center;
   //text-transform: uppercase;
@@ -102,8 +104,16 @@ const Role = styled.p`
 `
 const Container = styled.div`
   margin: 30px;
+
+  @media (max-width: 768px) {
+    margin: 10px;
+  }
 `
 const Image = styled.img`
   width: 100px;
   margin: 10px;
+
+  @media (max-width: 768px) {
+    margin: 5px;
+  }
 `
